@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "df4d1c6d-da07-4d3a-84ff-95f7ff6593b5",
+    "Name": "UsrStatsCollectParamsModalPage",
+    "ModifiedOnUtc": "\/Date(1773334715000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Statistics collect parameters modal page",
+    "DependsOn": []
+  }
+}

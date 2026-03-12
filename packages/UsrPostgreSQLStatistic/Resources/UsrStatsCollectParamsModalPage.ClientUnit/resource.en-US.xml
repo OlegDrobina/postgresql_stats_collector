@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Statistics collect parameters modal page" />
+			<Item Name="Description" Value="This modal page is used to specify parameters that will be used to trigger statistics collect" />
+			<Item Name="LocalizableStrings.Label_HeaderCaption_caption.Value" Value="Statistics collect parameters" />
+			<Item Name="LocalizableStrings.SaveButton_caption.Value" Value="Start" />
+			<Item Name="LocalizableStrings.addRecord_dpci7eg_caption.Value" Value="Add new" />
+		</Items>
+	</Group>
+</Resources>

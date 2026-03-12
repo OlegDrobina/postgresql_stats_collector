@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/UsrPostgreSQLStatistic/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/UsrPostgreSQLStatistic/Data/**" />
+		<Compile Remove="$(PkgPath)/UsrPostgreSQLStatistic/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/UsrPostgreSQLStatistic/Schemas\**" />
+		<Compile Remove="$(PkgPath)/UsrPostgreSQLStatistic/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/UsrPostgreSQLStatistic/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/UsrPostgreSQLStatistic/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/UsrPostgreSQLStatistic/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/UsrPostgreSQLStatistic/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/UsrPostgreSQLStatistic/Resources/**" />
+		<None Remove="$(PkgPath)/UsrPostgreSQLStatistic/Assemblies/**" />
+		<None Remove="$(PkgPath)/UsrPostgreSQLStatistic/Data/**" />
+		<None Remove="$(PkgPath)/UsrPostgreSQLStatistic/SqlScripts/**" />
+		<None Remove="$(PkgPath)/UsrPostgreSQLStatistic/Schemas/**" />
+		<None Remove="$(PkgPath)/UsrPostgreSQLStatistic/Resources/**" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "1c7845e4-2a4e-40db-96e6-ea484e2549c6",
+    "Name": "UsrStatsCollectParams",
+    "ModifiedOnUtc": "\/Date(1773335273000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Statistics collector parameters",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "f9cc6bac-ff13-4722-a302-553acfd835c7",
+    "Name": "UsrStatisticsCollectTa_MobileFormPage",
+    "ModifiedOnUtc": "\/Date(1773314745000)\/",
+    "Parent": {
+      "UId": "019c694a-1a3b-4812-b2e5-219b326061ae",
+      "Name": "MobilePageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Statistics collect tasks mobile form page",
+    "DependsOn": []
+  }
+}

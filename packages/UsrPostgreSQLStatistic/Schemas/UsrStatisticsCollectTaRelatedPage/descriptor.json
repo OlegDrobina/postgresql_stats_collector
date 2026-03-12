@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b5ac13f5-ba47-49ac-856a-9f522eb70e71",
+    "Name": "UsrStatisticsCollectTaRelatedPage",
+    "ModifiedOnUtc": "\/Date(1773314745000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Statistics collect tasks (Page settings)",
+    "DependsOn": []
+  }
+}

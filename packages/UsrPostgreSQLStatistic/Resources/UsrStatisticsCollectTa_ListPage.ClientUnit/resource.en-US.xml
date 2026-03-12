@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Statistics collect tasks list page" />
+			<Item Name="LocalizableStrings.AddButton_caption.Value" Value="Create a task" />
+		</Items>
+	</Group>
+</Resources>

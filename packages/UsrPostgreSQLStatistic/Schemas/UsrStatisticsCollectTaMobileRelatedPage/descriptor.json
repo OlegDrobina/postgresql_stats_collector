@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "db771e15-1139-4d59-8373-02eea0436384",
+    "Name": "UsrStatisticsCollectTaMobileRelatedPage",
+    "ModifiedOnUtc": "\/Date(1773314745000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Statistics collect tasks (Mobile page settings)",
+    "DependsOn": []
+  }
+}

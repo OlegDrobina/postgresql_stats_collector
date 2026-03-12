@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "f0c2f67f-b36a-4d47-97da-7776f3fc047f",
+    "Name": "UsrStatisticsCollectTa_Detail",
+    "ModifiedOnUtc": "\/Date(1773314745000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Statistics collect tasks detail",
+    "DependsOn": []
+  }
+}
