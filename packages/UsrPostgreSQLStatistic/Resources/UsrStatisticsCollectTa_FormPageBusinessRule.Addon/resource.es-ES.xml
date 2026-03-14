@@ -2,7 +2,7 @@
 <Resources Culture="es-ES">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Statistics collect tasks form page" />
+			<Item Name="Caption" Value="Statistics collect tasks form page (Business rules)" />
 		</Items>
 	</Group>
 </Resources>

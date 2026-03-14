@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.88376ecf-67f7-1075-342e-c4428dfa52ff.Caption" Value="Show start/end date/time if collect stats between two date/times" />
+			<Item Name="AddonConfig.Rules.c77dd651-edb3-5a8d-7462-518d8c3c1487.Caption" Value="Show end date/time if collect statistics until some date/time" />
+			<Item Name="Caption" Value="Statistics collect tasks form page (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

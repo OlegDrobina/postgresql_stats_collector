@@ -48,7 +48,7 @@ define("UsrStatsCollectParamsModalPage", /**SCHEMA_DEPS*/[  ]/**SCHEMA_DEPS*/, f
 			},
 			{
 				"operation": "insert",
-				"name": "ComboBox_UsrStatisticsCollectType",
+				"name": "FlexContainer_StatisticsCollectParameters",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
@@ -56,6 +56,19 @@ define("UsrStatsCollectParamsModalPage", /**SCHEMA_DEPS*/[  ]/**SCHEMA_DEPS*/, f
 						"row": 1,
 						"rowSpan": 1
 					},
+					"type": "crt.FlexContainer",
+					"direction": "column",
+					"items": [],
+					"fitContent": true
+				},
+				"parentName": "MainContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_UsrStatisticsCollectType",
+				"values": {
 					"type": "crt.ComboBox",
 					"label": "$Resources.Strings.UsrStatsCollectParamsDS_UsrStatisticsCollectType_xdsz56e",
 					"ariaLabel": "",
@@ -71,7 +84,7 @@ define("UsrStatsCollectParamsModalPage", /**SCHEMA_DEPS*/[  ]/**SCHEMA_DEPS*/, f
 					"placeholder": "",
 					"valueDetails": null
 				},
-				"parentName": "MainContainer",
+				"parentName": "FlexContainer_StatisticsCollectParameters",
 				"propertyName": "items",
 				"index": 0
 			},
@@ -79,12 +92,6 @@ define("UsrStatsCollectParamsModalPage", /**SCHEMA_DEPS*/[  ]/**SCHEMA_DEPS*/, f
 				"operation": "insert",
 				"name": "DateTimePicker_UsrStatsCollectStartDateTime",
 				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"colSpan": 1,
-						"row": 2,
-						"rowSpan": 1
-					},
 					"type": "crt.DateTimePicker",
 					"label": "$Resources.Strings.UsrStatsCollectParamsDS_UsrStatsCollectStartDateTime_snqt7jd",
 					"placeholder": "",
@@ -95,7 +102,7 @@ define("UsrStatsCollectParamsModalPage", /**SCHEMA_DEPS*/[  ]/**SCHEMA_DEPS*/, f
 					"pickerType": "datetime",
 					"visible": false
 				},
-				"parentName": "MainContainer",
+				"parentName": "FlexContainer_StatisticsCollectParameters",
 				"propertyName": "items",
 				"index": 1
 			},
@@ -103,12 +110,6 @@ define("UsrStatsCollectParamsModalPage", /**SCHEMA_DEPS*/[  ]/**SCHEMA_DEPS*/, f
 				"operation": "insert",
 				"name": "DateTimePicker_UsrStatsCollectEndDateTime",
 				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"colSpan": 1,
-						"row": 3,
-						"rowSpan": 1
-					},
 					"type": "crt.DateTimePicker",
 					"label": "$Resources.Strings.UsrStatsCollectParamsDS_UsrStatsCollectEndDateTime_vbg46ot",
 					"placeholder": "",
@@ -119,7 +120,7 @@ define("UsrStatsCollectParamsModalPage", /**SCHEMA_DEPS*/[  ]/**SCHEMA_DEPS*/, f
 					"pickerType": "datetime",
 					"visible": false
 				},
-				"parentName": "MainContainer",
+				"parentName": "FlexContainer_StatisticsCollectParameters",
 				"propertyName": "items",
 				"index": 2
 			}
