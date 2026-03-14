@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "67484348-f228-4dd0-b5e0-cc6c7ee19523",
+    "Name": "UsrStatsCollectParamsModalPageCSS",
+    "ModifiedOnUtc": "\/Date(1773346321000)\/",
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Statistics collect parameters modal page CSS",
+    "DependsOn": []
+  }
+}

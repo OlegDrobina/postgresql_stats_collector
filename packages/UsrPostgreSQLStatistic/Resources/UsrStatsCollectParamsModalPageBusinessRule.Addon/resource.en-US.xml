@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.2ad54bf7-a85f-014c-e326-1ca4fa37f762.Caption" Value="Show end date/time if collect from now till specified date/time. Make the end date/time required" />
+			<Item Name="AddonConfig.Rules.9f370456-07f2-916d-2b9c-395c07b48d22.Caption" Value="Show start and end date/time if collect between two date/times. Make start/end date/times required." />
+			<Item Name="Caption" Value="Statistics collect parameters modal page (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

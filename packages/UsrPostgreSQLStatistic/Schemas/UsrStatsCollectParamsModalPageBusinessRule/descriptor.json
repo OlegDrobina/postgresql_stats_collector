@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "3eb39213-0881-4f7d-a86c-9c7eb428633e",
+    "Name": "UsrStatsCollectParamsModalPageBusinessRule",
+    "ModifiedOnUtc": "\/Date(1773392161000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Statistics collect parameters modal page (Business rules)",
+    "DependsOn": []
+  }
+}

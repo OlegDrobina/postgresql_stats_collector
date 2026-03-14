@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "44295267-a257-4b2d-b9ea-5df24e5ce0c1",
+    "Name": "UsrStatisticsCollectorTaskBP",
+    "ModifiedOnUtc": "\/Date(1773478158000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Statistics collect tasks",
+    "DependsOn": []
+  }
+}
