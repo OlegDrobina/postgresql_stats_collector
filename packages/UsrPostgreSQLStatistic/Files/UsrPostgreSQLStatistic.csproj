@@ -330,6 +330,7 @@
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
 		<Compile Remove="$(RelativePkgFolderPath)/UsrPostgreSQLStatistic/Schemas/UsrStatisticsCollectTa/UsrStatisticsCollectTa.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrPostgreSQLStatistic/Schemas/UsrStatisticsCollectTa/UsrStatisticsCollectTa.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrPostgreSQLStatistic/Schemas/UsrStatsCollectorTaskStatus/UsrStatsCollectorTaskStatus.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrPostgreSQLStatistic/Schemas/UsrStatsCollectorTaskStatus/UsrStatsCollectorTaskStatus.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrPostgreSQLStatistic/Schemas/UsrStatsCollectParams/UsrStatsCollectParams.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrPostgreSQLStatistic/Schemas/UsrStatsCollectParams/UsrStatsCollectParams.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrPostgreSQLStatistic/Schemas/UsrStatsCollectType/UsrStatsCollectType.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrPostgreSQLStatistic/Schemas/UsrStatsCollectType/UsrStatsCollectType.cs')" />
 	</ItemGroup>

@@ -1,6 +1,7 @@
 <Project>
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
 		<Compile Include="$(PkgPath)/UsrPostgreSQLStatistic/Schemas/UsrStatisticsCollectTa/UsrStatisticsCollectTa.cs" Condition="Exists('$(PkgPath)/UsrPostgreSQLStatistic/Schemas/UsrStatisticsCollectTa/UsrStatisticsCollectTa.cs')" />
+		<Compile Include="$(PkgPath)/UsrPostgreSQLStatistic/Schemas/UsrStatsCollectorTaskStatus/UsrStatsCollectorTaskStatus.cs" Condition="Exists('$(PkgPath)/UsrPostgreSQLStatistic/Schemas/UsrStatsCollectorTaskStatus/UsrStatsCollectorTaskStatus.cs')" />
 		<Compile Include="$(PkgPath)/UsrPostgreSQLStatistic/Schemas/UsrStatsCollectParams/UsrStatsCollectParams.cs" Condition="Exists('$(PkgPath)/UsrPostgreSQLStatistic/Schemas/UsrStatsCollectParams/UsrStatsCollectParams.cs')" />
 		<Compile Include="$(PkgPath)/UsrPostgreSQLStatistic/Schemas/UsrStatsCollectType/UsrStatsCollectType.cs" Condition="Exists('$(PkgPath)/UsrPostgreSQLStatistic/Schemas/UsrStatsCollectType/UsrStatsCollectType.cs')" />
 	</ItemGroup>
