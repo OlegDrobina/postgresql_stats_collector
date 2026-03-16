@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Statistics collect tasks form page" />
+			<Item Name="LocalizableStrings.Label_StatisticsCollectTaskStatus_caption.Value" Value="Statistics collect task status" />
 			<Item Name="LocalizableStrings.Label_ihb4wub_caption.Value" Value="Task parameters" />
 			<Item Name="LocalizableStrings.addRecord_bnvub0l_caption.Value" Value="Add new" />
 		</Items>

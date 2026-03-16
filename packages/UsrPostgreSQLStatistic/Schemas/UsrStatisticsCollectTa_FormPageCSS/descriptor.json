@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "751a97b3-7918-451e-9cf2-0c64d6ca2487",
+    "Name": "UsrStatisticsCollectTa_FormPageCSS",
+    "ModifiedOnUtc": "\/Date(1773666146000)\/",
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Statistics collect tasks form page CSS",
+    "DependsOn": []
+  }
+}

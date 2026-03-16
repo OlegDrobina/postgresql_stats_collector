@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "30019762-65f5-4f05-9379-31b3a0fac124",
     "Name": "UsrStatisticsCollectTa",
-    "ModifiedOnUtc": "\/Date(1773478241000)\/",
+    "ModifiedOnUtc": "\/Date(1773665338000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"
