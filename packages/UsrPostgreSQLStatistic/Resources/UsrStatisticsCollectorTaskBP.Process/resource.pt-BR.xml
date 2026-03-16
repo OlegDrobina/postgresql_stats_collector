@@ -2,12 +2,6 @@
 <Resources Culture="pt-BR">
 	<Group Type="String">
 		<Items>
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Considerar o tempo nos filtros" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Filtros da fonte de dados" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.EntitySchemaUId.Caption" Value="Objeto" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IgnoreErrors.Caption" Value="Continuar a execução em caso de erros" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="Se o objeto atender às seguintes condições" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="Definir os valores da coluna" />
 			<Item Name="Caption" Value="Statistics collect tasks" />
 		</Items>
 	</Group>

@@ -42,6 +42,20 @@
   "E17": "UsrStatisticsCollectTaskStatusId",
   "E18": "UsrStatisticsCollectTaskStatusName"
 }
++ MetaData.Schema.D2 {
+  "UId": "8b07ae5d-4419-a1cf-92aa-11ef69a12a6b",
+  "A2": "UsrBusinessProcessInstance",
+  "A3": "30019762-65f5-4f05-9379-31b3a0fac124",
+  "A4": "30019762-65f5-4f05-9379-31b3a0fac124",
+  "A5": "680d8b3e-a230-4ea0-a018-a5b1cb0fb0c3",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "9db2a9f8-c736-4323-b8de-55371bf53f6b",
+  "E5": false,
+  "E6": true,
+  "E20": true,
+  "E17": "UsrBusinessProcessInstanceId",
+  "E18": "UsrBusinessProcessInstanceName"
+}
 ~ MetaData.Schema.D2 [
   "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
   "e80190a5-03b2-4095-90f7-a193a960adee",
@@ -50,7 +64,8 @@
   "3015559e-cbc6-406a-88af-07f7930be832",
   "3fabd836-6a53-4d8d-9069-6df88d9dae1e",
   "3aad90e4-7528-4216-955d-a0bb67b72209",
-  "ddb4e152-fb52-b98f-a5c0-673334641610"
+  "ddb4e152-fb52-b98f-a5c0-673334641610",
+  "8b07ae5d-4419-a1cf-92aa-11ef69a12a6b"
 ]
 = MetaData.Schema.D20.A2 "UsrStatisticsCollectTaEvents"
 + MetaData.Schema.D20.FA1 false

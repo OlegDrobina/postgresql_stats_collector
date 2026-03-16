@@ -290,6 +290,29 @@ define("UsrStatisticsCollectTa_FormPage", /**SCHEMA_DEPS*/["css!UsrStatisticsCol
 				"parentName": "FlexContainer_TaskParameters",
 				"propertyName": "items",
 				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_BusinessProcessInstance",
+				"values": {
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_UsrBusinessProcessInstance_9kodrxa",
+					"ariaLabel": "",
+					"isAddAllowed": true,
+					"showValueAsLink": true,
+					"labelPosition": "auto",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"control": "$PDS_UsrBusinessProcessInstance_9kodrxa",
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"valueDetails": null
+				},
+				"parentName": "FlexContainer_TaskParameters",
+				"propertyName": "items",
+				"index": 3
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -330,6 +353,24 @@ define("UsrStatisticsCollectTa_FormPage", /**SCHEMA_DEPS*/["css!UsrStatisticsCol
 					"UsrStatsCollectParamsDS_UsrStatsCollectEndDateTime_by68p05": {
 						"modelConfig": {
 							"path": "UsrStatsCollectParamsDS.UsrStatsCollectEndDateTime"
+						}
+					},
+					"PDS_UsrBusinessProcessInstance_9kodrxa": {
+						"modelConfig": {
+							"path": "PDS.UsrBusinessProcessInstance"
+						}
+					},
+					"PDS_UsrBusinessProcessInstance_9kodrxa_List": {
+						"isCollection": true,
+						"modelConfig": {
+							"sortingConfig": {
+								"default": [
+									{
+										"columnName": "Name",
+										"direction": "asc"
+									}
+								]
+							}
 						}
 					}
 				}

@@ -2,12 +2,6 @@
 <Resources Culture="tr-TR">
 	<Group Type="String">
 		<Items>
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Filtredeki zamanı göz önünde bulundurun" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Veri kaynağı filtreleri" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.EntitySchemaUId.Caption" Value="Nesne" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IgnoreErrors.Caption" Value="Sorunlarda sistemi yürütmeye devam et" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="Eğer obje ilerideki kondisyonları sağlarsa" />
-			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="Sütün değerlerini belirle" />
 			<Item Name="Caption" Value="Statistics collect tasks" />
 		</Items>
 	</Group>
