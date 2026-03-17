@@ -2,18 +2,6 @@
 <Resources Culture="ja-JP">
 	<Group Type="String">
 		<Items>
-			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="フィルターの時間を考慮" />
-			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.DataSourceFilters.Caption" Value="データソースフィルター" />
-			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.EntitySchemaUId.Caption" Value="オブジェクト" />
-			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.IgnoreErrors.Caption" Value="エラー時に実行を続ける" />
-			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.IsMatchConditions.Caption" Value="オブジェクトが以下の条件を満たす場合" />
-			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.RecordColumnValues.Caption" Value="列の値を設定" />
-			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.ConsiderTimeInFilter.Caption" Value="フィルターの時間を考慮" />
-			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.DataSourceFilters.Caption" Value="データソースフィルター" />
-			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.EntitySchemaUId.Caption" Value="オブジェクト" />
-			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.IgnoreErrors.Caption" Value="エラー時に実行を続ける" />
-			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.IsMatchConditions.Caption" Value="オブジェクトが以下の条件を満たす場合" />
-			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.RecordColumnValues.Caption" Value="列の値を設定" />
 			<Item Name="Caption" Value="Statistics collect tasks" />
 		</Items>
 	</Group>

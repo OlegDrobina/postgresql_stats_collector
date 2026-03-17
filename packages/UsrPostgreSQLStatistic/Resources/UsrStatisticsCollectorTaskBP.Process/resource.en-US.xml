@@ -41,8 +41,23 @@
 			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
 			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.IsMatchConditions.DisplayValue" Value="true" />
 			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.RecordColumnValues.Caption" Value="Set column values" />
-			<Item Name="BaseElements.ConditionalSequenceFlow3.Caption" Value="If collect current statistics" />
+			<Item Name="BaseElements.ConditionalSequenceFlow2.Caption" Value="Collect statistics between two date times" />
+			<Item Name="BaseElements.ConditionalSequenceFlow3.Caption" Value="Collect current statistics" />
+			<Item Name="BaseElements.ConditionalSequenceFlow5.Caption" Value="Error received during statistics collect" />
+			<Item Name="BaseElements.ConditionalSequenceFlow7.Caption" Value="Clear current statistics and collect till specified end date/time" />
 			<Item Name="BaseElements.FormulaTask1.Caption" Value="Set statistics collect task Id" />
+			<Item Name="BaseElements.FormulaTask2.Caption" Value="Statistics collect start date/time parameter" />
+			<Item Name="BaseElements.FormulaTask3.Caption" Value="Statistics collect end date/time parameter" />
+			<Item Name="BaseElements.FormulaTask4.Caption" Value="Statistics collect end date/time parameter" />
+			<Item Name="BaseElements.IntermediateCatchTimer1.Caption" Value="Wait till needed start date/time for stats collect" />
+			<Item Name="BaseElements.IntermediateCatchTimer1.Parameters.StartOffset.Caption" Value="Start in (sec.)" />
+			<Item Name="BaseElements.IntermediateCatchTimer1.Parameters.StartOffset.DisplayValue" Value="[#UsrDifferenceInSecondsForStartingStatsCollect#]" />
+			<Item Name="BaseElements.IntermediateCatchTimer2.Caption" Value="Wait till needed end date/time for stats collect" />
+			<Item Name="BaseElements.IntermediateCatchTimer2.Parameters.StartOffset.Caption" Value="Start in (sec.)" />
+			<Item Name="BaseElements.IntermediateCatchTimer2.Parameters.StartOffset.DisplayValue" Value="[#UsrDifferenceInSecondsForStatsCollect#]" />
+			<Item Name="BaseElements.IntermediateCatchTimer3.Caption" Value="Wait till the end date/time" />
+			<Item Name="BaseElements.IntermediateCatchTimer3.Parameters.StartOffset.Caption" Value="Start in (sec.)" />
+			<Item Name="BaseElements.IntermediateCatchTimer3.Parameters.StartOffset.DisplayValue" Value="[#UsrDifferenceInSecondsForStartingStatsCollect#]" />
 			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="Read statistics collector parameters" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
@@ -65,6 +80,14 @@
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Type of result" />
 			<Item Name="BaseElements.ScriptTask1.Caption" Value="Get current process instance UId" />
+			<Item Name="BaseElements.ScriptTask2.Caption" Value="Collect statistics" />
+			<Item Name="BaseElements.ScriptTask3.Caption" Value="Calculate difference in seconds between start and end date/time for statistics collect" />
+			<Item Name="BaseElements.ScriptTask4.Caption" Value="Calculate difference between current date/time and date/time for start of statistics collect" />
+			<Item Name="BaseElements.ScriptTask5.Caption" Value="Clear currently collected statistics" />
+			<Item Name="BaseElements.ScriptTask6.Caption" Value="Collect statistics" />
+			<Item Name="BaseElements.ScriptTask7.Caption" Value="Calculate difference in seconds between start and end date/time for statistics collect" />
+			<Item Name="BaseElements.ScriptTask8.Caption" Value="Clear currently collected statistics" />
+			<Item Name="BaseElements.ScriptTask9.Caption" Value="Collect statistics" />
 			<Item Name="BaseElements.StartSignal1.Caption" Value="Statistics collector parameters specified" />
 			<Item Name="BaseElements.StartSignal1.Parameters.RecordId.Caption" Value="Unique identifier of record" />
 			<Item Name="Caption" Value="Statistics collect tasks" />
@@ -72,8 +95,12 @@
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
 			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
 			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
+			<Item Name="Parameters.UsrDifferenceInSecondsForStartingStatsCollect.Caption" Value="UsrDifferenceInSecondsForStartingStatsCollect" />
+			<Item Name="Parameters.UsrDifferenceInSecondsForStatsCollect.Caption" Value="UsrDifferenceInSecondsForStatsCollect" />
+			<Item Name="Parameters.UsrEndDateTimeToCollect.Caption" Value="UsrEndDateTimeToCollect" />
 			<Item Name="Parameters.UsrExceptionErrorDetails.Caption" Value="UsrExceptionErrorDetails" />
 			<Item Name="Parameters.UsrProcessLogId.Caption" Value="UsrProcessLogId" />
+			<Item Name="Parameters.UsrStartDateTimeToCollect.Caption" Value="UsrStartDateTimeToCollect" />
 			<Item Name="Parameters.UsrStatisticsCollectTaskId.Caption" Value="UsrStatisticsCollectTaskId" />
 		</Items>
 	</Group>

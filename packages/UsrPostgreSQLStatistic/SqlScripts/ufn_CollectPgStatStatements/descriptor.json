@@ -1,10 +1,10 @@
 ﻿{
   "SqlScript": {
     "UId": "4f0ba7ec-a420-4e35-b2d2-4c5a4108306e",
-    "Name": "ufn_CollectPgStatStatementsTotalExecTime",
+    "Name": "ufn_CollectPgStatStatements",
     "DBEngineType": 2,
     "InstallType": 1,
-    "ModifiedOnUtc": "\/Date(1773742639000)\/",
+    "ModifiedOnUtc": "\/Date(1773755230000)\/",
     "BackwardCompatibilityConfirmed": false,
     "DependsOn": []
   }

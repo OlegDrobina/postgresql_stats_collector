@@ -275,7 +275,7 @@
                   {
                     "JI0": "Terrasoft.Core.BusinessRules.Models.Actions.BusinessRuleActionShowElement",
                     "UId": "e298e446-494d-228c-04bb-52920b3af778",
-                    "BRA4": "ExpansionPanel_To20HeaviestRequests"
+                    "BRA4": "ExpansionPanel_Top20CalledDatabaseRequests,ExpansionPanel_Top20HeaviestRequests"
                   }
                 ]
               }
@@ -289,7 +289,7 @@
               },
               {
                 "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
-                "UId": "363b09b3-b53c-a1d7-81f7-a7c819e3a98c",
+                "UId": "e64f699a-c085-993e-1f98-a8ff68e3e14e",
                 "BRT1": "UsrStatisticsCollectTaskStatus",
                 "BRT3": "PDS"
               }

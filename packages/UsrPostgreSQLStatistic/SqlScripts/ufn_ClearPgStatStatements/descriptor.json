@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "430e424c-ae1f-b8b6-3f97-763ecbd640da",
+    "Name": "ufn_ClearPgStatStatements",
+    "DBEngineType": 2,
+    "InstallType": 1,
+    "ModifiedOnUtc": "\/Date(1773766255000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}
