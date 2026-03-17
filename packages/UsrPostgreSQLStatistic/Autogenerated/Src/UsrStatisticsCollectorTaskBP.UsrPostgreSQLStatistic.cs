@@ -24,6 +24,7 @@
 		public UsrStatisticsCollectorTaskBPMethodsWrapper(Process process)
 			: base(process) {
 			AddScriptTaskMethod("ScriptTask1Execute", ScriptTask1Execute);
+			AddScriptTaskMethod("ScriptTask2Execute", ScriptTask2Execute);
 		}
 
 		#region Methods: Private
@@ -38,6 +39,30 @@
 			Set<Guid>("UsrProcessLogId", businessProcessLogId);
 			return true;
 		}
+
+		private bool ScriptTask2Execute(ProcessExecutingContext context) {
+			Guid statisticsCollectTaskId = Get<Guid>("UsrStatisticsCollectTaskId");
+			CollectCurrentlyCollectedStatistics(statisticsCollectTaskId);
+			return true;
+		}
+
+			private void CollectCurrentlyCollectedStatistics(Guid statisticsCollectTaskId)
+			{
+				var storedProcedure = new StoredProcedure(UserConnection, "ufn_CollectPgStatStatementsTotalExecTime");
+				storedProcedure.WithParameter(statisticsCollectTaskId);
+				try
+				{
+					using (DBExecutor dbExecutor = UserConnection.EnsureDBConnection())
+					{
+						dbExecutor.CommandTimeout = 30;
+						storedProcedure.Execute(dbExecutor);
+					}
+				}
+				catch (Exception e)
+				{
+					Set<string>("UsrExceptionErrorDetails", e.ToString());
+				}
+			}
 
 		#endregion
 

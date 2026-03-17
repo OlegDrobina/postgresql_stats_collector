@@ -2,6 +2,18 @@
 <Resources Culture="sq-AL">
 	<Group Type="String">
 		<Items>
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Filtrat e burimit të të dhënave" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.EntitySchemaUId.Caption" Value="Objekti" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.IgnoreErrors.Caption" Value="Vazhdoni ekzekutimin nëse ndodhin gabime" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.IsMatchConditions.Caption" Value="Nëse objekti përmbush kushtet vijuese" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.RecordColumnValues.Caption" Value="Përcakto vlerat e kolonës" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.DataSourceFilters.Caption" Value="Filtrat e burimit të të dhënave" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.EntitySchemaUId.Caption" Value="Objekti" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.IgnoreErrors.Caption" Value="Vazhdoni ekzekutimin nëse ndodhin gabime" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.IsMatchConditions.Caption" Value="Nëse objekti përmbush kushtet vijuese" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.RecordColumnValues.Caption" Value="Përcakto vlerat e kolonës" />
 			<Item Name="Caption" Value="Statistics collect tasks" />
 		</Items>
 	</Group>

@@ -1,0 +1,9 @@
+C:\LocalOnSites\forPostgreSQLPerformance\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrPostgreSQLStatistic\Files\obj\Release\UsrPostgreSQLStatistic.csproj.AssemblyReference.cache
+C:\LocalOnSites\forPostgreSQLPerformance\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrPostgreSQLStatistic\Files\obj\Release\UsrPostgreSQLStatistic.GeneratedMSBuildEditorConfig.editorconfig
+C:\LocalOnSites\forPostgreSQLPerformance\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrPostgreSQLStatistic\Files\obj\Release\UsrPostgreSQLStatistic.AssemblyInfoInputs.cache
+C:\LocalOnSites\forPostgreSQLPerformance\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrPostgreSQLStatistic\Files\obj\Release\UsrPostgreSQLStatistic.AssemblyInfo.cs
+C:\LocalOnSites\forPostgreSQLPerformance\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrPostgreSQLStatistic\Files\obj\Release\UsrPostgreSQLStatistic.csproj.CoreCompileInputs.cache
+C:\LocalOnSites\forPostgreSQLPerformance\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrPostgreSQLStatistic\Files\Bin\UsrPostgreSQLStatistic.dll
+C:\LocalOnSites\forPostgreSQLPerformance\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrPostgreSQLStatistic\Files\Bin\UsrPostgreSQLStatistic.pdb
+C:\LocalOnSites\forPostgreSQLPerformance\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrPostgreSQLStatistic\Files\obj\Release\UsrPostgreSQLStatistic.dll
+C:\LocalOnSites\forPostgreSQLPerformance\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrPostgreSQLStatistic\Files\obj\Release\UsrPostgreSQLStatistic.pdb

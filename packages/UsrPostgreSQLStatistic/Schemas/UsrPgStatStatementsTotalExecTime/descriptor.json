@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "1dd815a0-514a-4a28-b421-6316dc69d31e",
+    "Name": "UsrPgStatStatementsTotalExecTime",
+    "ModifiedOnUtc": "\/Date(1773740088000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "pg_stat_statements ordered by total_exec_time",
+    "DependsOn": []
+  }
+}

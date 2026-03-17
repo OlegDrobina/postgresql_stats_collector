@@ -3,8 +3,19 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Statistics collect tasks form page" />
+			<Item Name="LocalizableStrings.ExpansionPanel_To20HeaviestRequests_title.Value" Value="Top 20 heavies database requests" />
+			<Item Name="LocalizableStrings.GeneralInfoTab_caption.Value" Value="Results" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_27m8w50_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_7c774b6_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_bqf8nn4_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_1spm0bj_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_750a5nz_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_qtby39k_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.Label_ActionCompletedWithError_caption.Value" Value="Statistics collect task was completed with an error. Check the &quot;Error description&quot; field." />
+			<Item Name="LocalizableStrings.Label_ErrorDetails_caption.Value" Value="Error details" />
+			<Item Name="LocalizableStrings.Label_StatisticsCollectTaskIsInProgress_caption.Value" Value="Statistics collect task is in progress. You will see the results once the task is completed." />
 			<Item Name="LocalizableStrings.Label_StatisticsCollectTaskStatus_caption.Value" Value="Statistics collect task status" />
-			<Item Name="LocalizableStrings.Label_ihb4wub_caption.Value" Value="Task parameters" />
+			<Item Name="LocalizableStrings.Label_TaskParameters_caption.Value" Value="Task parameters" />
 			<Item Name="LocalizableStrings.addRecord_b7nk1wg_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_bnvub0l_caption.Value" Value="Add new" />
 		</Items>

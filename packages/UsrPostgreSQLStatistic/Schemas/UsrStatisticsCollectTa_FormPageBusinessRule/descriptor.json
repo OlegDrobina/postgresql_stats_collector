@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "6daf3054-f3fa-4a53-8fd1-ac912e2a0a75",
     "Name": "UsrStatisticsCollectTa_FormPageBusinessRule",
-    "ModifiedOnUtc": "\/Date(1773492225000)\/",
+    "ModifiedOnUtc": "\/Date(1773744270000)\/",
     "ManagerName": "AddonSchemaManager",
     "Caption": "Statistics collect tasks form page (Business rules)",
     "DependsOn": []
