@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "fbce79da-35f1-41a2-8a86-30760937898e",
+    "Name": "UsrStatsCollectParamsModalPageFunctions",
+    "ModifiedOnUtc": "\/Date(1773735447000)\/",
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Statistics collect parameters modal page functions",
+    "DependsOn": []
+  }
+}
