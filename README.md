@@ -11,7 +11,7 @@ PostgreSQL statistics collector is a composable application that can be installe
 
 ## Additional prerequirements
 
-You should have pg_stat_statements specified in the shared_preload_libraries in the PostgreSQL server. Ideally it should be already registered in your database, but the utility will check if the pg_stat_statements exists and try creating it if it's not created yet.
+You should have pg_stat_statements specified in the shared_preload_libraries in the PostgreSQL server. Ideally it should be already registered in your database, but the utility will check if the pg_stat_statements exists and try creating it if it's not created yet. In addition your Creation application database user (the one that is used in the ConnectionStrings.config) should have either the ***superuser*** role or the ***pg_read_all_stats*** role to read data from pg_stat_statements view (but in this case the utility won't be able to register pg_stat_statements view in the database).
 
 ## List of installed content
 
