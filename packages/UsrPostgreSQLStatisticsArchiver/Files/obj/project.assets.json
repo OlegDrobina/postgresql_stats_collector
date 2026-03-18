@@ -14,11 +14,11 @@
   "project": {
     "version": "8.3.2.4199",
     "restore": {
-      "projectUniqueName": "C:\\LocalOnSites\\forPostgreSQLPerformance\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\UsrPostgreSQLStatistic\\Files\\UsrPostgreSQLStatistic.csproj",
-      "projectName": "UsrPostgreSQLStatistic",
-      "projectPath": "C:\\LocalOnSites\\forPostgreSQLPerformance\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\UsrPostgreSQLStatistic\\Files\\UsrPostgreSQLStatistic.csproj",
+      "projectUniqueName": "C:\\LocalOnSites\\forPostgreSQLPerformance\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\UsrPostgreSQLStatisticsArchiver\\Files\\UsrPostgreSQLStatisticsArchiver.csproj",
+      "projectName": "UsrPostgreSQLStatisticsArchiver",
+      "projectPath": "C:\\LocalOnSites\\forPostgreSQLPerformance\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\UsrPostgreSQLStatisticsArchiver\\Files\\UsrPostgreSQLStatisticsArchiver.csproj",
       "packagesPath": "C:\\windows\\TEMP\\4\\TSCRM_o.drobina\\Default\\dotnet\\.nuget\\packages\\",
-      "outputPath": "C:\\LocalOnSites\\forPostgreSQLPerformance\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\UsrPostgreSQLStatistic\\Files\\obj\\",
+      "outputPath": "C:\\LocalOnSites\\forPostgreSQLPerformance\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\UsrPostgreSQLStatisticsArchiver\\Files\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

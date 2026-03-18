@@ -1,3 +1,4 @@
 <Solution>
     <Project Path="..\packages\UsrPostgreSQLStatistic\Files\UsrPostgreSQLStatistic.csproj" />
+    <Project Path="..\packages\UsrPostgreSQLStatisticsArchiver\Files\UsrPostgreSQLStatisticsArchiver.csproj" />
 </Solution>

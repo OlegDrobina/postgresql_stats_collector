@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d6c2229c-b577-45e0-9096-14de3176184e",
+    "Name": "UsrPostgreSQLStatisticEventListener",
+    "ModifiedOnUtc": "\/Date(1773833235000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "PostgreSQL statistics event listener",
+    "DependsOn": []
+  }
+}

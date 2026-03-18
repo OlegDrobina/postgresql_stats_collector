@@ -1,12 +1,11 @@
 ﻿{
   "Descriptor": {
-    "UId": "ce7f7ba3-887f-4430-bed5-4e79ae039184",
-    "PackageVersion": "1.0.0",
-    "Name": "UsrPostgreSQLStatistic",
+    "UId": "f29d53eb-723d-f569-9297-f846d802e0a9",
+    "Name": "UsrPostgreSQLStatisticsArchiver",
     "Type": 1,
-    "ModifiedOnUtc": "\/Date(1773767905000)\/",
+    "ModifiedOnUtc": "\/Date(1773831785000)\/",
     "Maintainer": "Customer",
-    "ProjectPath": "Files/UsrPostgreSQLStatistic.csproj",
+    "ProjectPath": "Files/UsrPostgreSQLStatisticsArchiver.csproj",
     "DependsOn": [
       {
         "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",

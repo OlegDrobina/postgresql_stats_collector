@@ -1,6 +1,6 @@
 is_global = true
-build_property.RootNamespace = UsrPostgreSQLStatistic
-build_property.ProjectDir = C:\LocalOnSites\forPostgreSQLPerformance\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrPostgreSQLStatistic\Files\
+build_property.RootNamespace = UsrPostgreSQLStatisticsArchiver
+build_property.ProjectDir = C:\LocalOnSites\forPostgreSQLPerformance\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrPostgreSQLStatisticsArchiver\Files\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false
