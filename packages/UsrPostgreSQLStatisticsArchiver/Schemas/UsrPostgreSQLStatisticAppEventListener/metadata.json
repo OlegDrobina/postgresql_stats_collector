@@ -3,7 +3,7 @@
     "Schema": {
       "ManagerName": "SourceCodeSchemaManager",
       "UId": "d6c2229c-b577-45e0-9096-14de3176184e",
-      "A2": "UsrPostgreSQLStatisticEventListener",
+      "A2": "UsrPostgreSQLStatisticAppEventListener",
       "A5": "31d71ee4-dddf-4c07-b20f-9d219e37600c",
       "B1": [],
       "B2": [],

@@ -44,6 +44,10 @@ Also the user is informed about the status of the task in the main working area 
 ![Business process instance. It's clickable](/assets/BusinessProcessInstance.png)
 9. The result will be displayed as two expandable lists added to the task form page. One list contains top 20 most heavies requests (requests ordered by total_exec_time) and another list contains top 20 most called requests (requests ordered by calls). You cannot change sorting in both lists.
 
+## Current improvements in progress
+
+As of now development of the archivator that will archive old statistics collector tasks is in progress in a dedicated branch of this repository. The idea is to store old (older than 90 days) statistics collector tasks and collected data in the archive (a separate section created) and remove data completely after another 90 days. 
+
 ## Improvements and support
 
 For additional improvements and bug fixes you can report an issue in the [`GitHub repository`](https://github.com/OlegDrobina/postgresql_stats_collector) or reach me at <o.drobina@creatio.com>.

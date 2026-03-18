@@ -3,12 +3,12 @@ namespace Terrasoft.Configuration
 	using Terrasoft.Core;
 	using Terrasoft.Web.Common;
 
-	#region Class: UsrPostgreSQLStatisticEventListener
+	#region Class: UsrPostgreSQLStatisticAppEventListener
 
 	/// <summary>
 	/// Represents methods to initialize package.
 	/// </summary>
-	public class UsrPostgreSQLStatisticEventListener : AppEventListenerBase
+	public class UsrPostgreSQLStatisticAppEventListener : AppEventListenerBase
 	{
 
 		#region Fields: Private

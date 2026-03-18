@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "2765eb0a-077b-736c-3e28-aa52e5270afe",
+    "Name": "UsrPostgreSQLStatisticsArchivators_PostgreSQL",
+    "DBEngineType": 2,
+    "InstallType": 1,
+    "ModifiedOnUtc": "\/Date(1773859048000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}
