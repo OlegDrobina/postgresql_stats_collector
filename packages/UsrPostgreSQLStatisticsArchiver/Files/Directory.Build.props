@@ -1,3 +1,5 @@
 <Project>
-	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''"></ItemGroup>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/UsrPostgreSQLStatisticsArchiver/Schemas/UsrPostgreSQLStatisticsArchivators/UsrPostgreSQLStatisticsArchivators.cs" Condition="Exists('$(PkgPath)/UsrPostgreSQLStatisticsArchiver/Schemas/UsrPostgreSQLStatisticsArchivators/UsrPostgreSQLStatisticsArchivators.cs')" />
+	</ItemGroup>
 </Project>
