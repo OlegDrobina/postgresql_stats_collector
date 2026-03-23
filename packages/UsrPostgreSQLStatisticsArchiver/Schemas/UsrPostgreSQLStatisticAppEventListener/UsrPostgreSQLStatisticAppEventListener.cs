@@ -1,48 +1,52 @@
 namespace Terrasoft.Configuration
 {
-	using Terrasoft.Core;
-	using Terrasoft.Web.Common;
+    using Terrasoft.Core;
+    using Terrasoft.Web.Common;
 
-	#region Class: UsrPostgreSQLStatisticAppEventListener
+    #region Class: UsrPostgreSQLStatisticAppEventListener
 
-	/// <summary>
-	/// Represents methods to initialize package.
-	/// </summary>
-	public class UsrPostgreSQLStatisticAppEventListener : AppEventListenerBase
-	{
+    /// <summary>
+    /// Represents methods to initialize package.
+    /// </summary>
+    public class UsrPostgreSQLStatisticAppEventListener : AppEventListenerBase
+    {
 
-		#region Fields: Private
+        #region Fields: Private
 
-		private UserConnection _userConnection;
+        private UserConnection _userConnection;
 
-		#endregion
+        #endregion
 
-		#region Methods: Private
+        #region Methods: Private
 
-		private UserConnection GetUserConnection(AppEventContext context) {
-			if (_userConnection == null) {
-				var appConection = context.Application["AppConnection"] as AppConnection;
-				_userConnection = appConection.SystemUserConnection;
-			}
-			return _userConnection;
-		}
+        private UserConnection GetUserConnection(AppEventContext context)
+        {
+            if (_userConnection == null)
+            {
+                var appConection = context.Application["AppConnection"] as AppConnection;
+                _userConnection = appConection.SystemUserConnection;
+            }
+            return _userConnection;
+        }
 
-		#endregion
+        #endregion
 
-		#region Methods: Public
+        #region Methods: Public
 
-		/// <summary>
-		/// Binds packages <see cref="ClassFactory"/> items.
-		/// </summary>
-		/// <param name="context">Instance of <see cref="AppEventContext"/>.</param>
-		public override void OnAppStart(AppEventContext context) {
-			var userConnection = GetUserConnection(context);
-		}
+        /// <summary>
+        /// Binds packages <see cref="ClassFactory"/> items.
+        /// </summary>
+        /// <param name="context">Instance of <see cref="AppEventContext"/>.</param>
+        public override void OnAppStart(AppEventContext context)
+        {
+            var userConnection = GetUserConnection(context);
+            UsrPostgreSQLStatisticsArchivatorUtilities.EnableActiveArchivationHandlers(userConnection);
+        }
 
-		#endregion
+        #endregion
 
-	}
+    }
 
-	#endregion
+    #endregion
 
 }

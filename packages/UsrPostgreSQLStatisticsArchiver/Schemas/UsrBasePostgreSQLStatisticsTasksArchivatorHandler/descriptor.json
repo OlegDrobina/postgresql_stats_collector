@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d63ff0c8-d6b6-4966-9e03-ce74adb82bad",
+    "Name": "UsrBasePostgreSQLStatisticsTasksArchivatorHandler",
+    "ModifiedOnUtc": "\/Date(1774268654000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "UsrBasePostgreSQLStatisticsTasksArchivatorHandler",
+    "DependsOn": []
+  }
+}

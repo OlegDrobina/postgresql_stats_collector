@@ -1,2 +1,0 @@
-INSERT INTO "UsrPostgreSQLStatisticsArchivators" ("Id", "UsrName", "UsrClassName")
-VALUES ('2d2252a1-0c3f-4d7f-a7aa-1da5120c9151', 'PostgreSQL statistics collector tasks', 'Terrasoft.Configuration.UsrPostgreSQLStatisticsTasksArchivator');

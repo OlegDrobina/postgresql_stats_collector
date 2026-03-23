@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "bd1f1149-d611-48f5-ba3f-30f33a004f89",
+    "Name": "UsrStatisticsCollectTaskArchive",
+    "ModifiedOnUtc": "\/Date(1774275518000)\/",
+    "Parent": {
+      "UId": "30019762-65f5-4f05-9379-31b3a0fac124",
+      "Name": "UsrStatisticsCollectTa"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Statistics collect tasks archive",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,35 @@
+﻿{
+  "Descriptor": {
+    "UId": "e5795a56-a881-55bc-5a39-7257c0f42a86",
+    "Name": "UsrPostgreSQLStatisticsArchivatorsData",
+    "ModifiedOnUtc": "\/Date(1774275442000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "7cbca706-997b-4c45-9ac6-291683be97e5",
+      "Name": "UsrPostgreSQLStatisticsArchivators"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "15ce5366-7a38-2448-060c-38e6c5a18255",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "UsrClassName",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "18d9b471-5d29-50f4-3a9c-d365a82e53c0",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "UsrName",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      }
+    ]
+  }
+}
