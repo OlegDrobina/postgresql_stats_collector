@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "71b8bf07-9cdb-4bcb-9caa-af211956b749",
+    "Name": "UsrPgStatStatementsCallsArchive",
+    "ModifiedOnUtc": "\/Date(1774962110000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "pg_stat_statements ordered by calls archive",
+    "DependsOn": []
+  }
+}

@@ -2,6 +2,7 @@ namespace Terrasoft.Configuration
 {
     using Terrasoft.Core;
     using Terrasoft.Web.Common;
+    using global::Common.Logging;
 
     #region Class: UsrPostgreSQLStatisticAppEventListener
 
@@ -14,6 +15,7 @@ namespace Terrasoft.Configuration
         #region Fields: Private
 
         private UserConnection _userConnection;
+        private static readonly ILog _log = LogManager.GetLogger("UsrPostgreSQLStatisticsArchivationLogger");
 
         #endregion
 
@@ -40,6 +42,7 @@ namespace Terrasoft.Configuration
         public override void OnAppStart(AppEventContext context)
         {
             var userConnection = GetUserConnection(context);
+            _log.Warn("App started. Initializing UsrPostgreSQLStatisticAppEventListener.");
             UsrPostgreSQLStatisticsArchivatorUtilities.EnableActiveArchivationHandlers(userConnection);
         }
 

@@ -6,6 +6,7 @@ namespace Terrasoft.Configuration
     using System.Collections.Generic;
     using System.Linq;
     using Terrasoft.Core.Factories;
+    using global::Common.Logging;
 
 
     #region Class: UsrPostgreSQLStatisticsArchivatorUtilities
@@ -14,6 +15,11 @@ namespace Terrasoft.Configuration
     /// </summary>
     public static class UsrPostgreSQLStatisticsArchivatorUtilities
     {
+        #region Fields : Private
+
+        private static readonly ILog _log = LogManager.GetLogger("UsrPostgreSQLStatisticsArchivationLogger");
+
+        #endregion
 
         #region Methods: Private
 
@@ -72,6 +78,7 @@ namespace Terrasoft.Configuration
         /// <param name="userConnection">Instance of user connection.</param>
         public static void EnableActiveArchivationHandlers(UserConnection userConnection)
         {
+            _log.Warn("Entered the EnableActiveArchivationHandlers method");
             EntityCollection archivatorHandlers = GetArchivatorHandlers(userConnection);
             IEnumerable<string> activeHandlersNames =
                 archivatorHandlers.Select(_ => _.GetTypedColumnValue<string>("UsrClassName")).Distinct();

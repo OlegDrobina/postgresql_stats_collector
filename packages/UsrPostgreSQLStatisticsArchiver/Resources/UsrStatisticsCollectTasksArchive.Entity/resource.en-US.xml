@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Statistics collect tasks archive" />
+			<Item Name="Columns.UsrBusinessProcessInstance.Caption" Value="Business process instance" />
+			<Item Name="Columns.UsrErrorDescription.Caption" Value="Error description" />
+			<Item Name="Columns.UsrName.Caption" Value="Name" />
+			<Item Name="Columns.UsrStatisticsCollectTaskStatus.Caption" Value="Statistics collect task status" />
+			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
+		</Items>
+	</Group>
+</Resources>

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UsrPostgreSQLStatistic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3284590937b5d55f39239c2c9c4addbc9147d37b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0390393ca94b7fd606d76d040deeb55e79b8a205")]
 [assembly: System.Reflection.AssemblyProductAttribute("UsrPostgreSQLStatistic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UsrPostgreSQLStatistic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

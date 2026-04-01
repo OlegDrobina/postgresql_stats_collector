@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Statistics collector parameters archive" />
+			<Item Name="Columns.UsrStatisticsCollectTask.Caption" Value="Statistics collect task" />
+			<Item Name="Columns.UsrStatisticsCollectType.Caption" Value="Type of statistics collection" />
+			<Item Name="Columns.UsrStatsCollectEndDateTime.Caption" Value="Statistics collect end date/time" />
+			<Item Name="Columns.UsrStatsCollectStartDateTime.Caption" Value="Statistics collect start date/time" />
+		</Items>
+	</Group>
+</Resources>
