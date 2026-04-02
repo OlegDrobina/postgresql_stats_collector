@@ -4,12 +4,12 @@
       "Row": [
         {
           "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
-          "Value": "5cf2b869-ccda-4551-aa6c-8ca84be79e42"
+          "Value": "b636adf2-4343-439a-8e9d-1020f7a9ac36"
         },
         {
           "SchemaColumnUId": "0fde6f1e-22c5-48c7-9c89-6f0031e270de",
-          "Value": "00c51f53-f41e-4ad7-a0ca-5ff3f5656114",
-          "DisplayValue": "Statistics collector archivation period"
+          "Value": "0af1d9b4-2a0a-448a-82cf-76538d2978f0",
+          "DisplayValue": "Statistics collector archive removal period"
         },
         {
           "SchemaColumnUId": "23c7dde8-7cf5-4f18-9d76-0fa4179ee931",
@@ -42,7 +42,7 @@
         },
         {
           "SchemaColumnUId": "b36bfa07-34c7-45b1-a2ee-39e653034ba0",
-          "Value": 30
+          "Value": 60
         },
         {
           "SchemaColumnUId": "f1bc0b27-2c46-4cae-ad23-3b8940587d4f",
