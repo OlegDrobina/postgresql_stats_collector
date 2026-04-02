@@ -1,7 +1,16 @@
 ![Creatio logo](/assets/Creatio.png)
 # PostgreSQL statistics collector
 
-## Requirements:
+## Table of Contents
+  - [Requirements](#requirements)
+  - [Additional prerequirements](#additional-prerequirements)
+  - [List of installed content](#list-of-installed-content)
+  - [General description of utility workflow](#general-description-of-utility-workflow)
+  - [Statistics collect archivator](#statistics-collect-archivator)
+  - [Current improvements in progress](#current-improvements-in-progress)
+  - [Improvements and support](#improvements-and-support)
+
+## Requirements
 1. .NET Framework platform.
 2. 8.3.2+ application version.
 3. Any build (like sales-enterprise-marketing-service-enterprise, studio, etc).
