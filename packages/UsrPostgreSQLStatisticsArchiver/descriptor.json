@@ -1,11 +1,11 @@
 {
   "Descriptor": {
     "UId": "f29d53eb-723d-f569-9297-f846d802e0a9",
-    "PackageVersion": "1.1.0",
+    "PackageVersion": "1.1.1",
     "Name": "UsrPostgreSQLStatisticsArchiver",
     "Type": 0,
     "ProjectPath": "",
-    "ModifiedOnUtc": "/Date(1775122646000)/",
+    "ModifiedOnUtc": "/Date(1775122961000)/",
     "Maintainer": "Customer",
     "DependsOn": [
       {

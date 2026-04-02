@@ -1,11 +1,11 @@
 {
   "Descriptor": {
     "UId": "ce7f7ba3-887f-4430-bed5-4e79ae039184",
-    "PackageVersion": "1.1.0",
+    "PackageVersion": "1.1.1",
     "Name": "UsrPostgreSQLStatistic",
     "Type": 1,
     "ProjectPath": "Files/UsrPostgreSQLStatistic.csproj",
-    "ModifiedOnUtc": "/Date(1775122646000)/",
+    "ModifiedOnUtc": "/Date(1775122961000)/",
     "Maintainer": "Customer",
     "DependsOn": [
       {

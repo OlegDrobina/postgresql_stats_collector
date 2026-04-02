@@ -67,8 +67,8 @@ The archivator is hard coded to trigger the archivation process once per 5 minut
 |--------------------------------------------------|-------------------------------------------------|-------------|-------------|-----------------|
 | Is statistics collector archivator enabled       | UsrStatisticsCollectorArchivationEnabled        | Controls if the archivator functionality is enabled or not | Boolean | True |
 | Statistics collector archivation iteration size  | UsrStatisticsCollectorArchivationIterationSize  | Number of records processed per batch by the archiver.<br><br>Logic:<br>1) Get all records matching `UsrStatisticsCollectorArchivationPeriod`<br>2) Insert/delete records in batches (controlled by this setting) | Integer  |  5000 |
-| Statistics collector archive removal period      | UsrStatisticsCollectorArchiveRemovalPeriod      | Number of days after which data in the archive tables will be removed | Integer |  30 |
-| Statistics collector archivation period          | UsrStatisticsCollectorArchivationPeriod         | Number of days that should pass for the record in the statistics collector to be archived   | Integer | 60 |
+| Statistics collector archive removal period      | UsrStatisticsCollectorArchiveRemovalPeriod      | Number of days after which data in the archive tables will be removed | Integer |  60 |
+| Statistics collector archivation period          | UsrStatisticsCollectorArchivationPeriod         | Number of days that should pass for the record in the statistics collector to be archived   | Integer | 30 |
 
 All these system settings can be found in the static folder called "Statistics collector archivation parameters":
 
