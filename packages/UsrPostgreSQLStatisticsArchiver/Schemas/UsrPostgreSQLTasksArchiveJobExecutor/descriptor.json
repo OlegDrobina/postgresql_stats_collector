@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "6ec8078e-b51b-48e7-a392-6b29a780a4e7",
+    "Name": "UsrPostgreSQLTasksArchiveJobExecutor",
+    "ModifiedOnUtc": "\/Date(1774275689000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "UsrPostgreSQLTasksArchiveJobExecutor",
+    "DependsOn": []
+  }
+}

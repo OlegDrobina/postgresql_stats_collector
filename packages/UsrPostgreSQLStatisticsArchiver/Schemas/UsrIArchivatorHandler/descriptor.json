@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "ca045052-e72a-4146-8743-eb2e1e3fe2f0",
+    "Name": "UsrIArchivatorHandler",
+    "ModifiedOnUtc": "\/Date(1773839141000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "UsrIArchivatorHandler",
+    "DependsOn": []
+  }
+}

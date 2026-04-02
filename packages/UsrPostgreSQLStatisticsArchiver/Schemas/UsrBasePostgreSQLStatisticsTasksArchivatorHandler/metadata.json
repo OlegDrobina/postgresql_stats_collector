@@ -1,0 +1,16 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "SourceCodeSchemaManager",
+      "UId": "d63ff0c8-d6b6-4966-9e03-ce74adb82bad",
+      "A2": "UsrBasePostgreSQLStatisticsTasksArchivatorHandler",
+      "A5": "31d71ee4-dddf-4c07-b20f-9d219e37600c",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "f29d53eb-723d-f569-9297-f846d802e0a9",
+      "B8": "8.3.2.4199",
+      "HD1": "50e3acc0-26fc-4237-a095-849a1d534bd3"
+    }
+  }
+}

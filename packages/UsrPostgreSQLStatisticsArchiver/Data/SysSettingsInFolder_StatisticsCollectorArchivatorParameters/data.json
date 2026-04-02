@@ -1,0 +1,58 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "80d0ccc6-56a1-473e-88cd-bccd194c74e7"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "a735b4a5-e748-41a6-9b82-c908ed69f199",
+          "DisplayValue": "Is statistics collector archivator enabled"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "37051fd9-1ce9-4f2d-9a86-76356a2d4c77",
+          "DisplayValue": "Statistics collector archivation parameters"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "9e1d4e4b-e59a-444b-83e8-8ea3a8cdc149"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "00c51f53-f41e-4ad7-a0ca-5ff3f5656114",
+          "DisplayValue": "Statistics collector archivation period"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "37051fd9-1ce9-4f2d-9a86-76356a2d4c77",
+          "DisplayValue": "Statistics collector archivation parameters"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "cc8fbcfc-551a-40d0-9dce-5d423c73a72f"
+        },
+        {
+          "SchemaColumnUId": "34982036-bcf9-408a-a293-d6b35c45edd5",
+          "Value": "cec68d0d-2bf7-4765-be94-0080ac1e6aea",
+          "DisplayValue": "Statistics collector archivation iteration size"
+        },
+        {
+          "SchemaColumnUId": "9e46bb69-9788-423c-b7cd-4c624081082d",
+          "Value": "37051fd9-1ce9-4f2d-9a86-76356a2d4c77",
+          "DisplayValue": "Statistics collector archivation parameters"
+        }
+      ]
+    }
+  ]
+}

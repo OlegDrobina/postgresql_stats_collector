@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="pg_stat_statements ordered by calls archive" />
+			<Item Name="Columns.UsrCapturedOn.Caption" Value="Captured On" />
+			<Item Name="Columns.UsrDatabaseName.Caption" Value="Database name" />
+			<Item Name="Columns.UsrMeanExecTime.Caption" Value="mean_exec_time" />
+			<Item Name="Columns.UsrNumberOfCalls.Caption" Value="calls" />
+			<Item Name="Columns.UsrPercentageCPU.Caption" Value="percentage_cpu" />
+			<Item Name="Columns.UsrShortQuery.Caption" Value="short_query" />
+			<Item Name="Columns.UsrStatisticsCollectTask.Caption" Value="Statistics collect task" />
+			<Item Name="Columns.UsrTotalExecTime.Caption" Value="total_exec_time" />
+		</Items>
+	</Group>
+</Resources>

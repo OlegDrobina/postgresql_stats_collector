@@ -1,3 +1,4 @@
+![Creatio logo](/assets/Creatio.png)
 # PostgreSQL statistics collector
 
 ## Requirements:
@@ -43,6 +44,44 @@ Also the user is informed about the status of the task in the main working area 
 8. In addition the user can see the instance of the "Statistics collect tasks" business process in the task form page:
 ![Business process instance. It's clickable](/assets/BusinessProcessInstance.png)
 9. The result will be displayed as two expandable lists added to the task form page. One list contains top 20 most heavies requests (requests ordered by total_exec_time) and another list contains top 20 most called requests (requests ordered by calls). You cannot change sorting in both lists.
+
+## Statistics collect archivator
+
+The utility also includes the archivation functionality that archives old statistics collect tasks along with deletion of data from the archive tables. List of archive tables (all located in the UsrPostgreSQLStatisticsArchiver package):
+
+1. UsrStatisticsCollectTasksArchive
+2. UsrStatsCollectParamsArchive
+3. UsrPgStatStatementsTotalExecTimeArchive
+4. UsrPgStatStatementsCallsArchive
+
+List of main tables that are archived (all located in the UsrPostgreSQLStatistic package):
+
+1. UsrStatisticsCollectTa
+2. UsrStatsCollectParams
+3. UsrPgStatStatementsTotalExecTime
+4. UsrPgStatStatementsCalls
+
+The archivator is hard coded to trigger the archivation process once per 5 minutes. It is planned to make this period configurable. Archivator functionality is controlled by 4 system settings:
+
+| System setting name                              | System setting code                             | Description | Type        | Default Value   |
+|--------------------------------------------------|-------------------------------------------------|-------------|-------------|-----------------|
+| Is statistics collector archivator enabled       | UsrStatisticsCollectorArchivationEnabled        | Controls if the archivator functionality is enabled or not | Boolean | True |
+| Statistics collector archivation iteration size  | UsrStatisticsCollectorArchivationIterationSize  | Number of records processed per batch by the archiver.<br><br>Logic:<br>1) Get all records matching `UsrStatisticsCollectorArchivationPeriod`<br>2) Insert/delete records in batches (controlled by this setting) | Integer  |  5000 |
+| Statistics collector archive removal period      | UsrStatisticsCollectorArchiveRemovalPeriod      | Number of days after which data in the archive tables will be removed | Integer |  30 |
+| Statistics collector archivation period          | UsrStatisticsCollectorArchivationPeriod         | Number of days that should pass for the record in the statistics collector to be archived   | Integer | 60 |
+
+All these system settings can be found in the static folder called "Statistics collector archivation parameters":
+
+As of now the archived data can be reviewed from the database side only.
+
+There is also the "UsrPostgreSQLStatisticsArchivationLogger" logger that can be used to track the steps for the archivation process (writes logs in the "Common.log" file):
+![CommonLog logger](/assets/CommonLog.png)
+
+## Current improvements in progress
+
+1. Make the archivation frequency configurable.
+2. Make it possible to view archived data from the UI.
+3. Make the archivation logger more configurable.
 
 ## Improvements and support
 
